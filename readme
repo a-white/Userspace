@@ -1,0 +1,18 @@
+Userspace.py
+
+    Volatility plugin to analyse user allocations of a process
+    Outputs all available metadata that describes those user allocations
+
+Sample usage
+
+    python vol.py -f WinXP.vmem --pid 1234
+    python vol.py -f Win7.vmem --profile Win7SP3x86 --pid 2345
+
+Tested Operating Systems
+
+    Windows XP SP3 x86
+    Windows 7 SP1 x86
+    
+Supported Volatility Versions
+
+    Volatility 2.1_rc3
